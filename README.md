@@ -1,4 +1,4 @@
-#how to use
+   ##how to use
 
 
 var http = require('http');
@@ -9,6 +9,7 @@ const date2 = require('./date.js');
 let date = new date2()
 
 
+##standard format
 
 date.day() // returns the monthday  as a number [1-31]   "22"
 
@@ -34,7 +35,7 @@ date.week_name()   //returns weekday in text format for example:  Friday
 date.print_time()   //returns time " 01:29:08 "
 
 
-UTC format
+    ##UTC format
 	
   date.utcday()  // returns the monthday  as a number [1-31]   "22"
   date.utcmonth() // returns the month as a number (1-12) "5"
@@ -44,7 +45,6 @@ UTC format
   date.utcsecond()   // returns the seconds
   date.utcweek() //  returns the weekday  [0-6]  
   date.utcweek_name() //returns weekday in text format for example:  Friday	
-	
-	print_utctime  returns time  21:29:08
+  date.print_utctime  returns time  21:29:08
 
 
