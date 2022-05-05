@@ -42,7 +42,7 @@ date.week_name()   //returns weekday in text format for example:  Friday
 date.print_time()   //returns time " 01:29:08 "
 ```
 
-    ### Executing program
+
 *UTC format
 ```	
   date.utcday()  // returns the monthday  as a number [1-31]   "22"
